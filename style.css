@@ -1,0 +1,44 @@
+body {
+  background-color: darkgrey;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: burlywood;
+  border-radius: 100px;
+}
+button {
+  width: 150px;
+  padding: 20px;
+  margin: 10px;
+  background-color: indianred;
+  color: aliceblue;
+  border: none;
+  border-radius: 20px;
+}
+hr {
+  width: 50%;
+}
+h1 {
+  padding-top: 40px;
+}
+li {
+  text-align: left;
+}
+button:hover {
+  background-color: aqua;
+}
+button:active {
+  background-color: black;
+}
+li:first-child {
+  color: blue;
+}
+li::after {
+  content: "🤯";
+}
+li::first-letter {
+  font-size: 32px;
+  color: brown;
+}
